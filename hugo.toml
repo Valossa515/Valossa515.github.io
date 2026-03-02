@@ -1,13 +1,43 @@
 baseURL = "https://Valossa515.github.io/"
 languageCode = "pt-br"
-title = "Meu Blog"
+title = "Felipe Martins"
 theme = "PaperMod"
+paginate = 5
 
 [params]
-  author = "Valossa515"
-  description = "Meu blog pessoal"
+  author = "Felipe Martins"
+  description = "Desenvolvedor Java | Spring Boot | Cloud | Open Source"
   showReadingTime = true
   showShareButtons = true
+  showCodeCopyButtons = true
+  defaultTheme = "dark"
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowToc = true
+
+  [params.homeInfoParams]
+    Title = "Olá, eu sou o Felipe! 👋"
+    Content = """
+Desenvolvedor apaixonado por **Java**, **Spring Boot** e **arquitetura de software**. \n\n
+Criador do [Spring Courier](https://github.com/Valossa515/spring-courier) — uma lib CQRS open source para Spring Boot inspirada no MediatR (.NET). \n\n
+Atualmente explorando **Data Engineering**, **AWS**, **Databricks** e **AI/ML**. \n\n
+Aqui compartilho tutoriais, projetos e aprendizados sobre desenvolvimento e tecnologia.
+"""
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/Valossa515"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/felipe-martins-529a249a/"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "fe.mmo515@gmail.com"
+
+[params.profileMode]
+  enabled = false
 
 [menu]
   [[menu.main]]
@@ -19,6 +49,16 @@ theme = "PaperMod"
     url = "/posts/"
     weight = 2
   [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+  [[menu.main]]
     name = "Sobre"
     url = "/about/"
-    weight = 3
+    weight = 4
+
+[markup]
+  [markup.highlight]
+    codeFence = true
+    lineNos = false
+    style = "monokai"
