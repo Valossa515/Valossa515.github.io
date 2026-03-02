@@ -1,0 +1,24 @@
+baseURL = "https://Valossa515.github.io/"
+languageCode = "pt-br"
+title = "Meu Blog"
+theme = "PaperMod"
+
+[params]
+  author = "Valossa515"
+  description = "Meu blog pessoal"
+  showReadingTime = true
+  showShareButtons = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "Sobre"
+    url = "/about/"
+    weight = 3
