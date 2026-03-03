@@ -59,6 +59,6 @@ Aqui compartilho tutoriais, projetos e aprendizados sobre desenvolvimento e tecn
 
 [markup]
   [markup.highlight]
-    codeFence = true
+    codeFences = true
     lineNos = false
     style = "monokai"
